@@ -17,12 +17,12 @@ The task provides:
 To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2018 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work. The task is in pilot this year, and is running on a highly compressed schedule.
 
 ## Task schedule
-* **Friday 12 October 2019:** Upload your images (see submission instructions below)
+* **Friday 20 September 2019:** Upload your images (see submission instructions below)
 * Begin writing your 2-page working notes paper, see information at http://multimediaeval.org/files/2019workingnotes.html for format and instructions.
-* **Friday 19 October 2019:** Results are returned to you
+* **Monday 23 September 2019:** Results are returned to you
 * Add the results to your working notes paper, and complete writing the discussion and outlook sections
-* **Friday 26 October 2019:** Finalize your working notes paper and submit it to: https://easychair.org/conferences/?conf=mediaeval18
-* **29-31 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2018workshopregistration.html 
+* **Monday 30 September 2019:** Finalize your working notes paper and submit it to: https://easychair.org/conferences/?conf=mediaeval19
+* **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2018workshopregistration.html 
 
 ## Where to find the necessary resources
 * You will need the validation images (small images (256 * 256)) from the Places365-Standard data set, which can be downloaded here: http://places2.csail.mit.edu/download.html
