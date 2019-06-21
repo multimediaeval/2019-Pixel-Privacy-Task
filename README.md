@@ -14,7 +14,7 @@ The task provides:
 * a list of 60 privacy-sensitive categories chosen from the original 365 scene categories.
 * a list of the Places365-Standard data set images to use as a *development set* to develop your approach(es).
 
-To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2018 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work. The task is in pilot this year, and is running on a highly compressed schedule.
+To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2019 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work. The task is in pilot this year, and is running on a highly compressed schedule.
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
@@ -22,14 +22,15 @@ To participate in the task, you must submit versions of the test images to which
 * **Monday 23 September 2019:** Results are returned to you
 * Add the results to your working notes paper, and complete writing the discussion and outlook sections
 * **Monday 30 September 2019:** Finalize your working notes paper and submit it to: https://easychair.org/conferences/?conf=mediaeval19
-* **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2018workshopregistration.html 
+* **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2019workshopregistration.html 
 
 ## Where to find the necessary resources
-* You will need the validation images (small images (256 * 256)) from the Places365-Standard data set, which can be downloaded here: http://places2.csail.mit.edu/download.html
-* The validation and the test sets for the MediaEval 2019 Pixel Privacy task are subsets of these validation images. Download the files that define these sets from: https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels
-  * `MEPP19dev.csv`: File names of the images that belong to the MediaEval 2019 Pixel Privacy task validation set (3,000 images total, 50 for each of the 60 privacy-sensitive scene categories). Use this set of images to develop your protected images.
-  * `MEPP19test_manual.csv`: A list of one image per category from the test set. If 'MEPP19test.csv' is alphabetized, this is the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter).
-* Before getting started, read the overview paper already linked above.
+* You will need the validation images (**small images (256 * 256)**) from the Places365-Standard data set, which can be downloaded here: http://places2.csail.mit.edu/download.html
+* The test (development) set for the MediaEval 2019 Pixel Privacy task is subset of `MEPP18test` dataset that is a subset of these validation images. The attack model (ResNet-50-places) has 100% top-1 accuracy on `MEPP19test`. Download the files that define these sets from: https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels
+  * `MEPP19test.csv`: File names of the images that belong to the MediaEval 2019 Pixel Privacy task validation set (600 images total, **aounrd** 100 for each of the 60 privacy-sensitive scene categories). Use this set of images to develop your protected images.
+  * `MEPP19test_manual.csv`: A list of one image per category from the test set. If 'MEPP19dev.csv' is alphabetized, this is the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter).
+<> * Before getting started, read the overview paper already linked above.
+* The overview paper is under work now, you can refer to it later on.
 
 ## How to submit
 * Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/files/usageagreement2019.html. Confirm with Martha Larson (m.a.larson at tudelft.nl) that you would like to participate in the task if you signed up but did not receive an email.
@@ -43,7 +44,7 @@ To participate in the task, you must submit versions of the test images to which
 ## Information on the privacy-sensitive scene categories
 As stated above, the MediaEval 2019 Pixel Privacy task uses 60 privacy-sensitive scene categories.
 These categories are a subset of the original 365 categories of the Places365-Standard data set, and can be found here
-https://github.com/multimediaeval/2018-Pixel-Privacy-Task/blob/master/MEPP19senscats.txt
+https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP19senscats.txt
 
 The format of this list reflects the format used in the original list of 365 categories, which is here: https://github.com/metalbubble/places_devkit/blob/master/categories_places365.txt and includes the original index numbers.
 
@@ -62,7 +63,7 @@ The 60 privacy-sensitive scene categories are consistent with one or more of the
 * Places related to security.
 * Places related to military.
 
-This list is not intended to be the final word on the types of scene categories that can be considered privacy-sensitive, but instead is supposed to provide clear criteria for the Pixel Privacy 2018 task, and a good basis for future work.
+This list is not intended to be the final word on the types of scene categories that can be considered privacy-sensitive, but instead is supposed to provide clear criteria for the Pixel Privacy 2019 task, and a good basis for future work.
 
 ## Motivation and larger objectives
 The objective of the MediaEval Pixel Privacy task is to promote the innovation of protective technologies that make it safer to share social multimedia online. Here, we briefly sketch two motivations for the task.
