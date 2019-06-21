@@ -27,10 +27,10 @@ To participate in the task, you must submit versions of the test images to which
 ## Necessary resources
 * The dataset (`MEPP19dev`) used for the MediaEval 2019 Pixel Privacy task is a subset of the validation images from the Places365-Standard data set, which can be downloaded here: http://data.csail.mit.edu/places/places365/val_256.tar
 * `MEPP19dev` is selected from `MEPP18test` used last year, and all the selected images are ensured to be correctly classified by the attack model (ResNet50-places). Download the files that define these sets from: https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels
-  * `MEPP19dev.csv`: File names of the images that belong to the MediaEval 2019 Pixel Privacy task validation set (600 images total, **aounrd** 10 for each of the 60 privacy-sensitive scene categories). Use this set of images to develop your protected images.
+  * `MEPP19dev.csv`: File names of the images that belong to the MediaEval 2019 Pixel Privacy task validation set (totally 600 images, **around** 10 for each of the 60 privacy-sensitive scene categories). Use this set of images to develop your protected images.
   * `MEPP19dev_manual.csv`: A list of one image per category from the test set. If `MEPP19dev.csv` is alphabetized, this is the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter).
-* The overview paper is under work now, you can refer to it later on.
 * [ResNet50-places365](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar) (Pytorch) will be used as the attack model to evaluate the performance of protection. For image preprocessing, only normalization is applied without resizing and cropping. You can use this model to develop your protection approach.
+* The overview paper is under work now, you can refer to it later on.
 
 ## How to submit
 * Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/files/usageagreement2019.html. Confirm with Martha Larson (m.a.larson at tudelft.nl) that you would like to participate in the task if you signed up but did not receive an email.
