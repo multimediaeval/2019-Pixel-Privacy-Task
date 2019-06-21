@@ -24,7 +24,7 @@ To participate in the task, you must submit versions of the test images to which
 * **Monday 30 September 2019:** Finalize your working notes paper and submit it to: https://easychair.org/conferences/?conf=mediaeval19
 * **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2019workshopregistration.html 
 
-## Where to find the necessary resources
+## Necessary resources
 * The dataset (`MEPP19dev`) used for the MediaEval 2019 Pixel Privacy task is a subset of the validation images from the Places365-Standard data set, which can be downloaded here: http://data.csail.mit.edu/places/places365/val_256.tar
 * `MEPP19dev` is selected from `MEPP18test` used last year, and all the selected images are ensured to be correctly classified by the attack model (ResNet50-places). Download the files that define these sets from: https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels
   * `MEPP19dev.csv`: File names of the images that belong to the MediaEval 2019 Pixel Privacy task validation set (600 images total, **aounrd** 10 for each of the 60 privacy-sensitive scene categories). Use this set of images to develop your protected images.
