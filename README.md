@@ -44,7 +44,7 @@ To participate in the task, you must submit versions of the test images to which
 ## Information on the privacy-sensitive scene categories
 As stated above, the MediaEval 2019 Pixel Privacy task uses 60 privacy-sensitive scene categories.
 These categories are a subset of the original 365 categories of the Places365-Standard data set, and can be found here
-https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP19senscats.txt
+https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP18senscats.txt
 
 The format of this list reflects the format used in the original list of 365 categories, which is here: https://github.com/metalbubble/places_devkit/blob/master/categories_places365.txt and includes the original index numbers.
 
