@@ -16,8 +16,7 @@ The task provides:
 
 To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2019 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work.
 
-## Updates for Pixel Privacy 2019
-In this Pixel Privacy Task 2019, the same *development set* (`MEPP18val`) will be used again. For the test set, we use a subset of `MEPP18test` this year. This test set has in total 600 images. Due to the reason that wrongly classified images do not need to be enahnced again to achieve privacy protection, all of these 600 images can be properly classified by the attack model (i.e., ResNet50).
+Compared with Pixel Privacy Task 2018, there are some updates for Pixel Privacy Task 2019. The same *development set* (`MEPP18val`) will be used again. For the test set, we use a subset of `MEPP18test` this year. This test set has in total 600 images. Due to the reason that wrongly classified images do not need to be enahnced again to achieve privacy protection, all of these 600 images can be properly classified by the attack model (i.e., ResNet50).
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
@@ -28,10 +27,11 @@ In this Pixel Privacy Task 2019, the same *development set* (`MEPP18val`) will b
 * **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2019workshopregistration.html 
 
 ## Necessary resources
-* The dataset (`MEPP18val`) used for the MediaEval 2019 Pixel Privacy task is a subset of the validation images from the Places365-Standard data set, which can be downloaded here: http://data.csail.mit.edu/places/places365/val_256.tar. The link for the of `MEPP18val` list can be found [here](https://github.com/multimediaeval/2018-Pixel-Privacy Task/blob/82b3352c75c3e3bba736fc837864bbead83138b1/MEPP18labels/MEPP18val.csv).
-* `MEPP19test` is a subset of `MEPP18test` used last year, and all the selected images are ensured to be correctly classified by the attack model (ResNet50-places). There are in total 600 images, **around** 10 for each of the 60 privacy-sensitive scene categories. The list of images in test set can be found [here](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels)
+* The dataset used for the MediaEval 2019 Pixel Privacy task is a subset of the validation images from the Places365-Standard data set, which can be downloaded here: http://data.csail.mit.edu/places/places365/val_256.tar. 
+  * `MEPP18val` is the list of images  for development set. This list can be downloaded from this [link](https://github.com/multimediaeval/2018-Pixel-Privacy-Task/blob/82b3352c75c3e3bba736fc837864bbead83138b1/MEPP18labels/MEPP18val.csv).
+  * `MEPP19test` is a subset of `MEPP18test` used last year, and all the selected images are ensured to be correctly classified by the attack model (ResNet50-places). There are in total 600 images, **around** 10 for each of the 60 privacy-sensitive scene categories. The list of images in test set can be found in this [link](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels)
   * `MEPP19test_manual.csv`: A list of one image per category from the test set. If `MEPP19test.csv` is alphabetized, this is the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter).
-* [ResNet50-places365](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar) (Pytorch) will be used as the attack model to evaluate the performance of protection. For image preprocessing, only normalization is applied without resizing and cropping. You can use this model to develop your protection approach.
+  * [ResNet50-places365](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar) (Pytorch) will be used as the attack model to evaluate the performance of protection. For image preprocessing, only normalization is applied without resizing and cropping. You can use this model to develop your protection approach.
 * The overview paper is under work now, you can refer to it later on.
 
 ## How to submit
