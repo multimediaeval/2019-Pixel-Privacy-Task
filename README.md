@@ -16,14 +16,16 @@ The task provides:
 
 To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2019 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work.
 
-Compared with Pixel Privacy Task 2018, the same *development set* (`MEPP18val`) will be used again this year. But there are some updates for the test set this year. Speciafically, a subset of `MEPP18test` is used as test set `MEPP19test` that contains totally 600 images (**around** 10 for each of the 60 categories), each of which can be correctly classified by the attack model (i.e., ResNet50) this year. We made this update because we think that it makes no sense to enhance the wrongly classified images since they have originally achieved privacy protection by themselves against the attack.
+To develope your approach use the *development set* (`MEPP18val`). This is the same development set as was used in the Pixel Privacy task in 2018. 
+
+Then, test your images on the *test set* (`MEPP19test`). This is a subset of the `MEPP18test` used last year that contains totally 600 images (**around** 10 for each of the 60 categories), each of which can be correctly classified by the attack model (i.e., ResNet50) this year. We made this update because we think that it makes no sense to enhance the wrongly classified images since they have originally achieved privacy protection by themselves against the attack.
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
 * Begin writing your 2-page working notes paper, see information at http://multimediaeval.org/files/2019workingnotes.html for format and instructions.
 * **Monday 23 September 2019:** Results are returned to you
 * Add the results to your working notes paper, and complete writing the discussion and outlook sections
-* **Monday 30 September 2019:** Finalize your working notes paper and submit it to: https://easychair.org/conferences/?conf=mediaeval19
+* **Monday 30 September 2019:** Finalize your working notes paper and submit it to: <link to be posted>
 * **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2019workshopregistration.html 
 
 ## Necessary resources
