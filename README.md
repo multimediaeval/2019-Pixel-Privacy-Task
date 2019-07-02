@@ -16,7 +16,7 @@ The task provides:
 
 To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2019 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work.
 
-Compared with Pixel Privacy Task 2018, the same *development set* (`MEPP18val`) will be used again this year. But there are some updates for the test set this year. Speciafically, a subset of `MEPP18test` is used as test set that has in total 600 images. From the task last year, we found that wrongly classified images do not need to be enahnced to achieve privacy protection. To focus more on the task's goal and avoid some unnecessary uncertainties, we picked all of these 600 images that can be properly classified by the attack model (i.e., ResNet50) this year.
+Compared with Pixel Privacy Task 2018, the same *development set* (`MEPP18val`) will be used again this year. But there are some updates for the test set this year. Speciafically, a subset of `MEPP18test` is used as test set `MEPP19test` that contains totally 600 images (**around** 10 for each of the 60 categories), each of which can be correctly classified by the attack model (i.e., ResNet50) this year. We made this update because we think that it makes no sense to enhance the wrongly classified images since they have originally achieved privacy protection by themselves against the attack.
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
@@ -28,8 +28,8 @@ Compared with Pixel Privacy Task 2018, the same *development set* (`MEPP18val`) 
 
 ## Necessary resources
 * The dataset used for the MediaEval 2019 Pixel Privacy task is a subset of the validation images from the Places365-Standard data set, which can be downloaded here: http://data.csail.mit.edu/places/places365/val_256.tar. 
-  * `MEPP18val` is the list of images  for development set. This list can be downloaded from this [link](https://github.com/multimediaeval/2018-Pixel-Privacy-Task/blob/82b3352c75c3e3bba736fc837864bbead83138b1/MEPP18labels/MEPP18val.csv).
-  * `MEPP19test` is a subset of `MEPP18test` used last year, and all the selected images are ensured to be correctly classified by the attack model (ResNet50-places). There are in total 600 images, **around** 10 for each of the 60 privacy-sensitive scene categories. The list of images in test set can be found in this [link](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels)
+  * `MEPP18val` is the list of images for development set, and can be found in this [link](https://github.com/multimediaeval/2018-Pixel-Privacy-Task/blob/82b3352c75c3e3bba736fc837864bbead83138b1/MEPP18labels/MEPP18val.csv).
+  * `MEPP19test` is the list of images for test set, and can be found in this [link](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/tree/master/MEPP19labels)
   * `MEPP19test_manual.csv`: A list of one image per category from the test set. If `MEPP19test.csv` is alphabetized, this is the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter).
   * [ResNet50-places365](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar) (Pytorch) will be used as the attack model to evaluate the performance of protection. For image preprocessing, only normalization is applied without resizing and cropping. You can use this model to develop your protection approach.
 * The overview paper is under work now, you can refer to it later on.
