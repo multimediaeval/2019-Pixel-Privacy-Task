@@ -16,7 +16,7 @@ The task provides:
 
 To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate your transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2019 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work.
 
-Compared with Pixel Privacy Task 2018, there are some updates for Pixel Privacy Task 2019. The same *development set* (`MEPP18val`) will be used again. For the test set, we use a subset of `MEPP18test` this year. This test set has in total 600 images. Due to the reason that wrongly classified images do not need to be enahnced again to achieve privacy protection, all of these 600 images can be properly classified by the attack model (i.e., ResNet50).
+Compared with Pixel Privacy Task 2018, the same *development set* (`MEPP18val`) will be used again this year. But there are some updates for the test set in Task 2019. Speciafically, a subset of `MEPP18test` is used as test set this year, and it has in total 600 images. From the task last year, we found that wrongly classified images do not need to be enahnced to achieve privacy protection. To focus more on the task's goal and avoid some unnecessary uncertainties, we picked all of these 600 images that can be properly classified by the attack model (i.e., ResNet50) this year.
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
