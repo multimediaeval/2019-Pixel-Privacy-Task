@@ -27,7 +27,7 @@ Then, test your images on the *test set* (`MEPP19test`). This is a subset of the
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
-* Begin writing your 2-page working notes paper, see information at http://multimediaeval.org/files/2019workingnotes.html for format and instructions.
+* Begin writing your 2-page working notes paper, see information at [MediaEval 2019 Working Notes](http://multimediaeval.org/files/2019workingnotes.html) for format and instructions.
 * **Monday 23 September 2019:** Results are returned to you
 * Add the results to your working notes paper, and complete writing the discussion and outlook sections
 * **Monday 30 September 2019:** Finalize your working notes paper and submit it to: <link to be posted>
