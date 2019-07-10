@@ -3,7 +3,7 @@
 This task develops image enhancement technology that helps to protect user privacy. 
 Specifically, it is dedicated to creating new approaches that invisibly change or visibly enhance images in such a way that it is no longer possible to automatically infer privacy-sensitive information. 
 The task is "whitebox" in the sense that you have full knowledge of the classifier whose inference needs to be blocked. 
-This year, the test set is composed of images that the classifier has correctly classified, since blocking classification of other images is trivial.
+This year, the test set is composed of images that the classifier has correctly classified, since blocking classification of other images is trivial. Note that this year you should use the "small images" (256 * 256) both for development and test.
 
 This page contains information on participating in the task. The 2019 task uses a subset of images of the 2018 task. We welcome innovative approaches in 2019: we are interested in what works, and what does not work.
 
@@ -27,11 +27,11 @@ Then, test your images on the *test set* (`MEPP19test`). This is a subset of the
 
 ## Task schedule
 * **Friday 20 September 2019:** Upload your images (see submission instructions below)
-* Begin writing your 2-page working notes paper, see information at [MediaEval 2019 Working Notes](http://multimediaeval.org/files/2019workingnotes.html) for format and instructions.
+* Begin writing your 2-page working notes paper, see information at [MediaEval 2019 Working Notes](https://docs.google.com/document/d/e/2PACX-1vT10Mnt8Nt3EHGey56bUw6zN2ZME8GRr4VysAV9mURFF6v-j8k7SYT1vCMUxbyOcsUUsRKQrgP4cO6b/pub) for format and instructions.
 * **Monday 23 September 2019:** Results are returned to you
 * Add the results to your working notes paper, and complete writing the discussion and outlook sections
 * **Monday 30 September 2019:** Finalize your working notes paper and submit it to: <link to be posted>
-* **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at http://multimediaeval.org/files/2019workshopregistration.html 
+* **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at: <link to be posted>
 
 ## Necessary resources
 * The dataset used for the MediaEval 2019 Pixel Privacy task is a subset of the validation images from the Places365-Standard data set, which can be downloaded here: http://data.csail.mit.edu/places/places365/val_256.tar. 
