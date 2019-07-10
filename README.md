@@ -42,7 +42,7 @@ Then, test your images on the *test set* (`MEPP19test`). This is a subset of the
 * The overview paper is under construction now. We will disseminate it soon. Please cite this paper in your MediaEval 2019 Working Notes paper and whereever you use the dataset, along with the citation for the Places365-Standard data set.
 
 ## How to submit
-* Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/files/usageagreement2019.html. Confirm with Martha Larson (m.a.larson at tudelft.nl) that you would like to participate in the task if you signed up but did not receive an email.
+* Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/docs/MediaEval2019_UsageAgreement.pdf. Confirm with Martha Larson (m.a.larson at tudelft.nl) that you would like to participate in the task if you signed up but did not receive an email.
 * You will then receive a Google docs folder in which to submit your runs. 
   * A "run" is a single image transformation algorithm, or type of image transformation, which you apply to the images in the test set.
   * For each run, please invent a unique run code that includes your team name (i.e., the team name is the one that you used to register). For example, `rteam_base`. 
