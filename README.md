@@ -7,7 +7,7 @@ This year, the test set is composed of images that the classifier has correctly 
 
 This page contains information on participating in the task. The 2019 task uses a subset of images of the 2018 task. We welcome innovative approaches in 2019: we are interested in what works, and what does not work.
 
-For more information contact Martha Larson (m.a.larson at tudelft.nl)
+For more information contact Zhuoran Liu (z.liu@cs.ru.nl)
 
 ## Instructions
 The 2019 edition of the task focuses on privacy-sensitive information that is related to scene categories.
