@@ -39,6 +39,7 @@ Then, test your images on the *test set* (`MEPP19test`). This is a subset of the
   * `MEPP19test` is the list of images for test set, and can be found in this [link](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP19labels/MEPP19test.csv).
   * `MEPP19test_manual` (relevant if you are applyig image modifications by hand): A list of one image per category from the test set. The set was selected by alphabetizing `MEPP19test` and chosing the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter). This file can be found in this [link](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP19labels/MEPP19test_manual.csv).
   * [ResNet50-places365](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar) (Pytorch) will be used as the attack model to evaluate the performance of protection. For image preprocessing, **only** normalization is applied without resizing and cropping. You can use this model to develop your protection approach.
+* Automatic aesthetics classification algorithm [NIMA](https://arxiv.org/abs/1709.05424) will be used to evaluate the visual appeal of protected images.
 * The overview paper is under construction now. We will disseminate it soon. Please cite this paper in your MediaEval 2019 Working Notes paper and whereever you use the dataset, along with the citation for the Places365-Standard data set.
 
 ## How to submit
