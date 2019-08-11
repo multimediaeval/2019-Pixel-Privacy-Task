@@ -3,7 +3,7 @@
 This task develops image enhancement technology that helps to protect user privacy. 
 Specifically, it is dedicated to creating new approaches that invisibly change or visibly enhance images in such a way that it is no longer possible to automatically infer privacy-sensitive information. 
 The task is "whitebox" in the sense that you have full knowledge of the classifier whose inference needs to be blocked. 
-This year, the test set is composed of images that the classifier has correctly classified, since blocking classification of other images is trivial. Note that this year you should use the "small images" (256 * 256) both for development and test.
+This year, the test set is composed of images that the classifier has correctly classified, since blocking classification of other images is trivial. Note that this year you should use the **"small images" (256 * 256)** both for development and test.
 
 This page contains information on participating in the task. The 2019 task uses a subset of images of the 2018 task. We welcome innovative approaches in 2019: we are interested in what works, and what does not work.
 
