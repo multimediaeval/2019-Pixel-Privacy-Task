@@ -30,7 +30,7 @@ Then, test your images on the *test set* (`MEPP19test`). This is a subset of the
 * Begin writing your 2-page working notes paper, see information at [MediaEval 2019 Working Notes](https://docs.google.com/document/d/e/2PACX-1vT10Mnt8Nt3EHGey56bUw6zN2ZME8GRr4VysAV9mURFF6v-j8k7SYT1vCMUxbyOcsUUsRKQrgP4cO6b/pub) for format and instructions.
 * **Monday 23 September 2019:** Results are returned to you
 * Add the results to your working notes paper, and complete writing the discussion and outlook sections
-* **Monday 30 September 2019:** Finalize your working notes paper and submit it to: <link to be posted>
+* **Monday 30 September 2019:** Finalize your working notes paper and submit it to: https://easychair.org/conferences/?conf=mediaeval19
 * **27-29 October 2019:** Join the MediaEval 2019 Workshop in France near Nice, information at: <link to be posted>
 
 ## Necessary resources
@@ -40,7 +40,8 @@ Then, test your images on the *test set* (`MEPP19test`). This is a subset of the
   * `MEPP19test_manual` (relevant if you are applyig image modifications by hand): A list of one image per category from the test set. The set was selected by alphabetizing `MEPP19test` and chosing the first image in every category. Focus on these images if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter). This file can be found in this [link](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP19labels/MEPP19test_manual.csv).
   * [ResNet50-places365](http://places2.csail.mit.edu/models_places365/resnet50_places365.pth.tar) (Pytorch) will be used as the attack model to evaluate the performance of protection. For image preprocessing, **only** normalization is applied without resizing and cropping. You can use this model to develop your protection approach.
 * Automatic aesthetics classification algorithm [NIMA](https://arxiv.org/abs/1709.05424) trained on AVA data set will be used to evaluate the visual appeal of protected images.
-  * In order to gain further insight in the appeal of images, we release the aesthetics evaluation model NIMA (Keras + Tensorflow) in this [link](https://surfdrive.surf.nl/files/index.php/s/bVULwLZ7MHa5Q4K). To delpoy this model, you can follow the instructions in this [GitHub repo](https://github.com/titu1994/neural-image-assessment). We welcome the runs using this model for optimization, but please note that such runs won’t be considered in the official ranking. 
+  * In order to gain further insight in the appeal of images, we release the aesthetics evaluation model NIMA (Keras + Tensorflow) in this [link](https://surfdrive.surf.nl/files/index.php/s/bVULwLZ7MHa5Q4K). To delpoy this model, you can follow the instructions in this [GitHub repo](https://github.com/titu1994/neural-image-assessment). We welcome the runs using this model for optimization, but please note that such runs won’t be considered in the official ranking.
+  * The average NIMA score of the [test set](https://github.com/multimediaeval/2019-Pixel-Privacy-Task/blob/master/MEPP19labels/MEPP19test.csv) is 4.64.
 * The overview paper is under construction now. We will disseminate it soon. Please cite this paper in your MediaEval 2019 Working Notes paper and whereever you use the dataset, along with the citation for the Places365-Standard data set.
 
 ## How to submit
